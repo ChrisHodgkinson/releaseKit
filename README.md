@@ -339,31 +339,4 @@ Also confirm that the DMG script calls `add_background_image` before `polish_fin
 
 ---
 
-## Git safety checkpoint
 
-After confirming the release tool works, commit it:
-
-```bash
-git add release
-git commit -m "Add GameMaker macOS release pipeline"
-```
-
----
-
-## Future improvements
-
-Possible additions:
-
-- `--no-dmg`
-- `--sign-only`
-- `--notarize-only`
-- automatic next-version suggestion
-- custom DMG volume icon
-- DMG checksum in the release report
-- optional signing/notarization of the DMG itself
-
----
-
-## License
-
-Add your preferred licence here.
